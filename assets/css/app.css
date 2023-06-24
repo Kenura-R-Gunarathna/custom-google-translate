@@ -1,0 +1,50 @@
+/* Google translation css code */
+
+body {
+    position: inherit !important;
+    min-height: initial !important;
+    top: 0px !important;
+}
+
+.skiptranslate.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+}
+
+#wsmu-google-translate {
+    display: block;
+    width: auto;
+}
+
+#wsmu-google-translate-element {
+    display: none !important;
+}
+
+#goog-gt-tt {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-te-menu-value:hover {
+    text-decoration: none !important;
+}
+
+#wsmu-google-translate ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+#wsmu-google-translate>ul>li {
+    display: inline-block;
+}
+
+#wsmu-google-translate>ul>li>a>img {
+    border: none;
+    box-shadow: 0px 0px 2px #000;
+    margin-right: 2px;
+    width: 23px;
+    height: auto;
+}
