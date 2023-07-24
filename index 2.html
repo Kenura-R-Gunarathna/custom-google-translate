@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Google Translate</title>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+    
+        <h1>Google Translate</h1>
+
+        <p>The onload event occurs when an object has been loaded.</p>
+
+        <p>onload is most often used within the</p>
+
+        <p> element to execute a script once a web page has completely loaded all content (including images, script files,
+            CSS files, etc.).</p>
+
+        <p>The onload event can be used to check the visitor's browser type and browser version, and load the proper version
+            of the web page based on the information.</p>
+
+        <p>The onload event can also be used to deal with cookies (see "More Examples" below).</p>
+
+
+        <div class="select_wrap">
+
+            <div id="wsmu-google-translate">
+                    
+                <ul class="default_option">
+                    <li>
+                        <div class="option">
+                            <img class="icon" alt="English" src="./assets/img/en-flagge-icon.png" />
+                            <p class="notranslate">English</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="select_ul" id="wsmu-google-translate">
+                    <li class="wsmu-gt-icons" onclick="doGTranslate('de|en');return false;" title="EN">
+                        <div class="option">
+                            <img class="icon" alt="English" src="./assets/img/en-flagge-icon.png" />
+                            <p class="notranslate">English</p>
+                        </div>
+                    </li>
+                    <li class="wsmu-gt-icons option" id="lang-fr-bt" onclick="doGTranslate('de|fr');return false;" title="FR">
+                        <div class="option">
+                            <img class="icon" alt="French" src="./assets/img/fr-flagge-icon.png" />
+                            <p class="notranslate">French</p>
+                        </div>
+                    </li>
+                    <li class="wsmu-gt-icons option" id="lang-fr-bt" onclick="doGTranslate('de|de');return false;" title="DE">
+                        <div class="option">
+                            <img class="icon" alt="German" src="./assets/img/de-flagge-icon.png" />
+                            <p class="notranslate">German</p>
+                        </div>
+                    </li>
+                    <li class="wsmu-gt-icons option" id="lang-fr-bt" onclick="doGTranslate('de|ru');return false;" title="RU">
+                        <div class="option">
+                            <img class="icon" alt="Russian" src="./assets/img/ru-flagge-icon.png" />
+                            <p class="notranslate">Russian</p>
+                        </div>
+                    </li>
+                    <li class="wsmu-gt-icons option" id="lang-fr-bt" onclick="doGTranslate('de|ar');return false;" title="AR">
+                        <div class="option">
+                            <img class="icon" alt="Arabic" src="./assets/img/ar-flagge-icon.png" />
+                            <p class="notranslate">Arabic</p>
+                        </div>
+                    </li>
+                    <li class="wsmu-gt-icons option" id="lang-fr-bt" onclick="doGTranslate('de|es');return false;" title="ES">
+                        <div class="option">
+                            <img class="icon" alt="Spanish" src="./assets/img/es-flagge-icon.png" />
+                            <p class="notranslate">Spanish</p>
+                        </div>
+                    </li>
+                    <li class="wsmu-gt-icons option" id="lang-fr-bt" onclick="doGTranslate('de|pt');return false;" title="PT">
+                        <div class="option">
+                            <img class="icon" alt="Portuguese" src="./assets/img/pt-flagge-icon.png" />
+                            <p class="notranslate">Portuguese</p>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div id="wsmu-google-translate-element">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script>
+</script>
+
+    
+    <!-- Put the google transate css files at the bottom most position -->
+
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"
+        type="text/javascript"></script>
+    <script src="./assets/js/app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
